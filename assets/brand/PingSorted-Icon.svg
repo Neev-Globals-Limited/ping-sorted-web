@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">PingSorted icon</title>
+  <desc id="desc">A navy conversation bubble with three dots and an overlapping teal completion check.</desc>
+  <path fill="#183153" d="M38 18h72c17.673 0 32 14.327 32 32v34c0 17.673-14.327 32-32 32H72l-29 25v-25h-5C20.327 116 6 101.673 6 84V50c0-17.673 14.327-32 32-32Z"/>
+  <circle cx="48" cy="65" r="7" fill="#FFFFFF"/>
+  <circle cx="74" cy="65" r="7" fill="#FFFFFF"/>
+  <circle cx="100" cy="65" r="7" fill="#FFFFFF"/>
+  <path d="m68 111 21 20 50-52" fill="none" stroke="#15B79E" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
