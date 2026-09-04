@@ -231,19 +231,51 @@ p { margin: 0; }
   gap: 56px;
   align-items: center;
 }
-.hero h1 {
-  font-size: clamp(38px, 4.6vw, 60px);
-  letter-spacing: -0.01em;
+/* PING / WhatsApp / ... / SORTED -- the same bookend story and type
+   scale relationship as the printed table QR card's own .ping-word/
+   .whatsapp-line/.sorted-lockup (tenant/locations/qr-branded-card.html),
+   not just the same words. */
+.hero-ping {
+  margin: 22px 0 0;
+  font-size: clamp(52px, 7.2vw, 92px);
+  font-weight: 800;
+  line-height: 0.92;
+  letter-spacing: 0.01em;
+  color: var(--ink-900);
 }
-.hero h1 em {
-  font-style: normal;
-  color: var(--accent-600);
+.hero-whatsapp-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0 0;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--ink-muted);
 }
+.hero-whatsapp-line strong { color: #087b69; font-weight: 700; }
+.whatsapp-icon { width: 24px; height: 24px; flex: none; }
+
 .hero-sub {
   margin-top: 22px;
   font-size: 18.5px;
   color: var(--ink-muted);
   max-width: 46ch;
+}
+
+.hero-sorted-lockup {
+  margin: 34px 0 0;
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+  color: var(--accent-600);
+}
+.hero-sorted-lockup span {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: 650;
+  color: var(--ink);
 }
 .hero-actions {
   display: flex;
