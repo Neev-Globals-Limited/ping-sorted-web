@@ -17,7 +17,7 @@
  * (and https://www.pingsorted.com) as allowed websites. Empty = no chat.
  */
 (function () {
-  var WIDGET_KEY = '';
+  var WIDGET_KEY = 'wc_y3CtBFbPF8F-jgXh93kbzQ';
   if (!WIDGET_KEY) return;
   var s = document.createElement('script');
   s.src = 'https://app.pingsorted.com/chat-widget/v1/widget.js';
